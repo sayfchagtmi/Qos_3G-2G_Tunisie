@@ -8,7 +8,7 @@ dt = read_excel("2g3g-f.xlsx")
 map = leaflet()
 map = addTiles(map)
 
-df = read.csv("data.csv")
+df = read.csv("data.csv",fileEncoding = "UTF-8")
 df = df[2:length(df)]
 
 
